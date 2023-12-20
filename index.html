@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrøjborgBryg - Hjem</title>
+    <!-- Hjemmesiden icon -->
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <!-- Navigation menu -->
+        <header class="navbar sticky">
+            <a href="index.html" class="logo"><img src="img/logo.svg" alt="Logo"></a>
+            <div class="menu-btn">
+                <div class="menu-btn__lines"></div>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html" class="menu-item">Hjem</a></li>
+                <li>
+                    <a href="produkter.html" class="menu-item">Produkter</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/produkter/citrus.html" class="menu-item">Citrus</a></li>
+                        <li><a href="/produkter/pilsner.html" class="menu-item">Pilsner</a></li>
+                        <li><a href="/produkter/lime.html" class="menu-item">Lime</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="omOs.html" class="menu-item">Om os</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="omOs.html#vision" class="menu-item">Vision</a></li>
+                        <li><a href="omOs.html#mission" class="menu-item">Mission</a></li>
+                    </ul>
+                </li>
+                <li><a href="kontakt.html" class="menu-item">Kontakt</a></li>
+            </ul>
+        </header>
+
+        <!-- Main content -->
+        <main>
+            <!-- Hero sektion -->
+            <section class="hero-section">
+                <div class="hero-text-container">
+                    <h1>TrøjborgBryg</h1>
+                    <h3>Det nye alkoholfri øl i Aarhus</h3>
+                </div>
+                <div id="hero-img"><img src="img/hero-pexels-elevate-1267696.jpg" alt="Hero image"></div>
+            </section>
+            <!-- Varianter sektion -->
+            <section class="varianter-section">
+                <div class="flex-container-row">
+                    <div class="flex-row-left" id="varianter-tekst">
+                        <h2>Alkoholfri øl i forskellige varianter</h2>
+                        <button>Se produkter</button>
+                    </div>
+                    <div class="flex-row-right">
+                        <img id="varianter-img" src="img/gruppe.png" alt="Øl varianter">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <a href="index.html" class="logo"><img src="img/logo.svg" alt="Logo"></a>
+                    </div>
+                    <div class="footer-links">
+                        <ul class="footer-menu">
+                            <li><a href="#">Hjem</a></li>
+                            <li><a href="#">Produkter</a></li>
+                            <li><a href="#">Om os</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2023 TrøjborgBryg</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="overlay"></div>
+    <script src="https://kit.fontawesome.com/46b7ceee20.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
